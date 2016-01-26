@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#display the confused smiley: "("(Ôo)'
+VARIABLE="\"(Ôo)'" 
+echo $VARIABLE 
