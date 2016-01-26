@@ -1,5 +1,0 @@
-#!/bin/bash
-
-#define a variable named 'variable' that contains the string: Foobar
-NAME="Foobar"
-echo $NAME
