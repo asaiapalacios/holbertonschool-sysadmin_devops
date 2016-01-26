@@ -1,4 +1,4 @@
 #!/bin/bash
 
 #display the string
-printf "ello Holberton School!\n"
+printf "Hello Holberton School!\n"
