@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#display disk utilization with a human-readable output: Byte, Kilobyte, Megabyte instead of 512-byte block count
+df -h

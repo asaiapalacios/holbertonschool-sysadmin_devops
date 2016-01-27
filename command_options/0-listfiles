@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#display the current directory contents in a list format
+ls -l 

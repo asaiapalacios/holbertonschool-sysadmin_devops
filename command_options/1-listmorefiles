@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#display current directory contents in a list format and showing hidden files (starting with .)
+ls -la 

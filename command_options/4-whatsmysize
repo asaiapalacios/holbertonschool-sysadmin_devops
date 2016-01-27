@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#display the total size of your current and /tmp/ directory (human friendly ouput please with unit suffixes: Byte, Kilobyte, Megabyte...AND must display a total size)
+du -chs . /tmp
