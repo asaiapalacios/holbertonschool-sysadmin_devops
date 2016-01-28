@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#display all lines starting with a letter and including capital letters as well in the file /etc/ssh/sshd_config
+grep -i ^[a-z] /etc/ssh/sshd_config

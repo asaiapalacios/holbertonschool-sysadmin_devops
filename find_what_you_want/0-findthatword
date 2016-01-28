@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#display lines containing the word "root" in the file /etc/passwd
+grep "root" /etc/passwd
