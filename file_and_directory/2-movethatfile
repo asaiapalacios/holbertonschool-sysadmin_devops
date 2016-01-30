@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#move the file betty into the holberton directory
+mv /tmp/betty  /tmp/holberton/

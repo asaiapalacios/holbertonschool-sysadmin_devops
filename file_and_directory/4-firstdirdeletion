@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#delete the directory holberton but you cannot use rm
+rmdir /tmp/holberton/

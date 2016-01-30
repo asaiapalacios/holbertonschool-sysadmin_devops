@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#delete the file betty
+rm /tmp/holberton/betty

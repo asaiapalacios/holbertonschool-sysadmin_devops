@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#create a file named betty in the /tmp/ directory
+touch /tmp/betty
