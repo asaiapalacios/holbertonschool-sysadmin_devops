@@ -1,2 +1,2 @@
 #!/bin/bash
-printf \n $((2#11110001011010)) 
+echo -e "$((2#$BINARY))"
