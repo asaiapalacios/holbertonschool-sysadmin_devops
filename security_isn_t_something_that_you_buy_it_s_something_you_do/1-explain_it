@@ -1,0 +1,11 @@
+Setting:
+Manager wants to give you access to the sandbox servers. Employees connect to these servers using SSH, a key based authentication.
+
+What should you create? Using what?
+I should create an isolated computing environment in which a program or file can be executed without affecting the application in which it runs and with certain restrictions on what employees can do for security reasons. Thus, we will feel safe and secure about what the executing software can do.
+
+What should you do with the public key? How will it be used? What will it do?
+Many servers authenticate using SSH public keys. In order to provide a public key, each user in your system must generate one if they don’t already have one. This process is similar across all operating systems. Each user after generating a key can send their public key to whoever is administrating the server. For this, one should copy the contents of the .pub file and send it to the person administrating the server.
+
+What should you do with the private key? How will it be used? What will it do?
+The private key is kept on the computer you log in from. When you log in to a computer, the SSH server uses the public key to “lock” messages in a way that can only be “unlocked” by your private key. This means that even an attacker cannot interfere with your session. As an extra security measure, most SSH programs store the private key in a passphrase-protected format, so that if your computer is stolen or broken in to, you should have enough time to disable your old public key before they break the passphrase and start using your key.
