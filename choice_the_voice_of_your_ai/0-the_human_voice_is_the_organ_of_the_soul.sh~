@@ -1,0 +1,8 @@
+#!/bin/bash
+
+Message=$1
+Sex=$2
+IP=$3
+
+echo $Message
+echo $1 
